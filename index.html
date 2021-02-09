@@ -25,10 +25,35 @@
         height: 100%;
         -webkit-tap-highlight-color: transparent;
       }
+
+      .sitter {
+        position: fixed;
+        bottom: 15px;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 10px 15px;
+        border-radius: 22px;
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .left {
+        left: 15px;
+      }
+
+      .twitch {
+        color: #6441a5;
+      }
+
+      .yt {
+        color: #c4302b;
+      }
     </style>
   </head>
   <body>
     <canvas id="canvas"></canvas>
+    <div class="sitter left">watch how it's made: <a class="twitch" href="https://www.twitch.tv/videos/903775630" target="_blank">twitch</a> <a class="yt" href="https://www.youtube.com/watch?v=ZZ1Rkgbdwqc" target="_blank">youtube</a></div>
     <script src="./index.js"></script>
   </body>
 </html>
